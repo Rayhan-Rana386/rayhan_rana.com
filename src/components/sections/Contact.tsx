@@ -142,7 +142,6 @@ export default function Contact({ isDarkMode = true }: { isDarkMode?: boolean })
             </label>
             <textarea
               name="message"
-              required
               rows={4}
               className={`w-full border rounded-lg px-4 py-2.5 text-[16px] outline-none resize-none transition-all ${
                 isDarkMode 
