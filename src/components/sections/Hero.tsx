@@ -19,7 +19,7 @@ export default function Hero({ isDarkMode = true }: { isDarkMode?: boolean }) {
       >
         <div className={`w-full h-full rounded-2xl overflow-hidden transition-colors ${isDarkMode ? "bg-slate-900" : "bg-slate-50"}`}>
           <img
-            src="https://ahnafakif.com/rayhan.com/wp-content/uploads/2026/05/profile.png"
+            src="https://dev-drain-cleaning-one.pantheonsite.io/wp-content/uploads/2026/05/profile.png"
             alt="Rayhan Rana"
             className="w-full h-full object-cover transition-all duration-500"
             referrerPolicy="no-referrer"

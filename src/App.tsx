@@ -302,7 +302,7 @@ export default function App() {
                    <button
                      key={tab}
                      onClick={() => setActiveTab(tab)}
-                    className={`text-[18px] font-medium transition-all relative ${
+                    className={`text-[16px] font-medium transition-all relative ${
                        activeTab === tab 
                        ? (isDarkMode ? "text-white" : "text-slate-950") 
                        : (isDarkMode ? "text-slate-600 hover:text-slate-300" : "text-slate-500 hover:text-slate-800")
