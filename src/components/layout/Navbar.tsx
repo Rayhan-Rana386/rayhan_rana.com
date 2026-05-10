@@ -25,6 +25,8 @@ export default function Navbar() {
   return (
     <nav
       className={cn(
+
+       <img src="https://dev-drain-cleaning-one.pantheonsite.io/wp-content/uploads/2026/05/profile.png" alt="RAYHAN RANA" className="w-10 h-10 rounded-full mr-2" /> 
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300 px-6 py-4",
         scrolled ? "bg-white/80 backdrop-blur-md border-b border-neutral-200 py-3" : "bg-transparent"
       )}
